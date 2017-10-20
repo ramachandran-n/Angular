@@ -1,0 +1,13 @@
+﻿table
+{
+    border:double solid;
+    font-style:oblique;
+    font-size:larger;
+    color:chocolate;
+    font-family: Arial, Haettenschweiler, sans-serif;   
+    border-collapse : collapse
+}
+
+td{
+    border: 2px solid red;
+}
