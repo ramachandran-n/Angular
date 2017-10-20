@@ -7,22 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var interpolationexample = /** @class */ (function () {
-    function interpolationexample() {
-        this.firstName = "Ramachandran";
-        this.lastName = "Narayanan";
-        this.imagePath = "https://avatars1.githubusercontent.com/u/21025225?s=460&v=4";
+var propertybindingexample = /** @class */ (function () {
+    function propertybindingexample() {
+        this.isDisabled = false;
+        this.maliciousHTML = "Hello <script> alert('I see you!!')</script>";
     }
-    interpolationexample.prototype.getFullName = function () {
-        return this.firstName + " " + this.lastName;
-    };
-    interpolationexample = __decorate([
+    propertybindingexample = __decorate([
         core_1.Component({
-            selector: "interpolation",
-            templateUrl: 'app/InterpolationExample/interpolationexample.component.html',
+            selector: "propertybinding",
+            templateUrl: 'app/PropertyBinding/propertybindingexample.component.html',
         })
-    ], interpolationexample);
-    return interpolationexample;
+    ], propertybindingexample);
+    return propertybindingexample;
 }());
-exports.interpolationexample = interpolationexample;
-//# sourceMappingURL=interpolationexample.component.js.map
+exports.propertybindingexample = propertybindingexample;
+//# sourceMappingURL=propertybindingexample.component.js.map

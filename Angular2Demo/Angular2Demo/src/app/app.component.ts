@@ -9,7 +9,8 @@ import { Component } from '@angular/core';
             <h1>{{ pageHeader }}</h1>
             <interpolation></interpolation>
             <employee></employee>
-        </div>`,
+            <propertybinding></propertybinding>
+        </div>`
 })
 export class AppComponent {
     pageHeader: string = "Employee Details";

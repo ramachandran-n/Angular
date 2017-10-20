@@ -12,14 +12,15 @@ var app_component_1 = require("./app.component");
 //Importing the new EmployeeComponent
 var employee_component_1 = require("./Employee/employee.component");
 var interpolationexample_component_1 = require("./InterpolationExample/interpolationexample.component");
-//Added new component to the module EmployeeComponent
+var propertybindingexample_component_1 = require("./PropertyBinding/propertybindingexample.component");
+//Added new component to the module EmployeeComponent, Interpolation component and Property Binding component
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, interpolationexample_component_1.interpolationexample],
+            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, interpolationexample_component_1.interpolationexample, propertybindingexample_component_1.propertybindingexample],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);
