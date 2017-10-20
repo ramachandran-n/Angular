@@ -7,19 +7,22 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-//Added <employee> for nesting component example
-//Added <interpolaton> for interpolation example
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
-        this.pageHeader = "Employee Details";
+var interpolationexample = /** @class */ (function () {
+    function interpolationexample() {
+        this.firstName = "Ramachandran";
+        this.lastName = "Narayanan";
     }
-    AppComponent = __decorate([
+    interpolationexample.prototype.getFullName = function () {
+        return this.firstName + " " + this.lastName;
+    };
+    interpolationexample = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n        <div>\n            <h1>{{ pageHeader }}</h1>\n            <interpolation></interpolation>\n            <employee></employee>\n        </div>",
+            selector: "interpolation",
+            templateUrl: 'app/InterpolationExample/interpolationexample.component.html',
         })
-    ], AppComponent);
-    return AppComponent;
+    ], interpolationexample);
+    return interpolationexample;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.interpolationexample = interpolationexample;
++;
+//# sourceMappingURL=interpolationexample.component.js.map

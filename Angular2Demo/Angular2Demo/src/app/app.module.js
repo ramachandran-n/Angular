@@ -11,6 +11,7 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 //Importing the new EmployeeComponent
 var employee_component_1 = require("./Employee/employee.component");
+var interpolationexample_component_1 = require("./InterpolationExample/interpolationexample.component");
 //Added new component to the module EmployeeComponent
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -18,7 +19,7 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent],
+            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, interpolationexample_component_1.interpolationexample],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);

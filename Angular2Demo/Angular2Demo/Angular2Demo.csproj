@@ -74,6 +74,7 @@
     <Content Include="src\app\Demo.html" />
     <Content Include="src\app\Employee\employee.component.css" />
     <Content Include="src\app\Employee\employee.component.html" />
+    <Content Include="src\app\InterpolationExample\interpolationexample.component.html" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
     <None Include="Web.Debug.config">
@@ -100,6 +101,7 @@
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\Employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\InterpolationExample\interpolationexample.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
